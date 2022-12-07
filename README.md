@@ -12,8 +12,13 @@ This project can be used as a refactor project or by those looking to consolidat
 ## Credits
 I found the following websites useful during this project.
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_mq_breakpoints
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://ordinarycoders.com/blog/article/hero-banners
 
 ## License
 Please refer to license in repo.
 
+## Screenshot
+
+![Screenshot](./images/jenieb3.github.io_spio-garbrah-portfolio_.png/)
 
