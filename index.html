@@ -8,29 +8,6 @@
     <title>SpioDesign</title>
     <link rel="stylesheet" href="./css/style.css" />
 </head>
-<style>
-    body {
-        background-color: rgb(214, 168, 207);
-    }
-
-    @media only screen and (max-width: 640px) {}
-
-    body {
-        background-color: rgb(131, 206, 213);
-    }
-
-
-
-    body {
-        background-color: rgb(244, 244, 217);
-    }
-
-    @media only screen and (max-width: 1312px) {
-        body {
-            background-color: rgb(179, 165, 155);
-        }
-    }
-</style>
 
 <body>
     <!-- main logo / nav -->
@@ -48,122 +25,85 @@
                     <a href="#contact">Contact</a>
                 </li>
             </ul>
-
-
     </header>
 
-    <!-- hero banner -->
-    <section class="hero-banner">
-        <div class="hero-text">
-            <h2>Hi THERE, I'm Jenelle</h2>
-            <h5>..."Everything is designed. Few things are designed well." -- Brian Reed</h5>
-            <img src="./images/profile-picture.jpg" alt="Photo of Jenelle">
-        </div>
-    </section>
-    <style>
-        .hero-banner {
-            background-image: url(./images/fluid-1.png);
-            height: 700px;
-            width: 100%;
-            padding: 0%;
-            margin: 0;
-            background-size: cover;
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-        }
-
-        .hero-text {
-            text-align: center;
-            position: relative;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            color: rgb(137, 7, 137);
-        }
-
-        .hero-text img {
-            width: 20%;
-            border-radius: 8px;
-        }
-    </style>
-
     <main class="flex-container">
-        <style>
-            .flex-container {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                flex-wrap: wrap;
-            }
-        </style>
+        <!-- hero banner -->
+        <section class="hero-banner">
+            <div class="hero-text">
+                <h2>Hi THERE, I'm Jenelle</h2>
+                <h5>..."Everything is designed. Few things are designed well." -- Brian Reed</h5>
+                <img src="./images/profile-picture.jpg" alt="Photo of Jenelle">
+            </div>
+        </section>
         <br>
         <br>
 
 
+        <!-- about me -->
+        <section class="page-section mr-3" id="about">
 
-        <main class="page-wrapper">
-            <!-- about me -->
-            <section class="page-section mr-3" id="about">
+            <h2>About</h2>
+            <p>I am a lover of life and learning. I do enjoy a good challenge that provokes analytical thinking and
+                problem
+                solving. Also, I like interacting with nature as I draw inspiration, from the wonderful world around
+                us.
+            </p>
 
-                <h2>About</h2>
-                <p>I am a lover of life and learning. I do enjoy a good challenge that provokes analytical thinking and
-                    problem
-                    solving. Also, I like interacting with nature as I draw inspiration, from the wonderful world around
-                    us.</p>
-
-            </section>
-            <br>
-            <br>
-            <br>
-
-
-            <!-- portfolio container -->
-            <section class="page-section mr-3" id="projects">
-                <div class="grid-container">
-                    <h2>Projects</h2>
-                    <br>
-                    <br>
-                    
-                        <a href="https://jenieb3.github.io/assessibility-able/">
-                                <img class="img-link" src="./images/digital-marketing-meeting.jpg"
-                                    alt="digital-marketing-meeting">
-                            </a>
-                            <h3><span>Refactor Project</span></h3>
-                        
+        </section>
+        <br>
+        <br>
+        <br>
 
 
+        <!-- portfolio container -->
+        <section class="page-section mr-3" id="projects">
+            <div class="grid-container">
+                <h2>Projects</h2>
+                <br>
+                <br>
 
+                <a href="https://jenieb3.github.io/assessibility-able/">
+                    <img class="img-link" src="./images/digital-marketing-meeting.jpg" alt="digital-marketing-meeting">
+                </a>
+                <h3><span>Refactor Project</span></h3>
+
+                <div class="other-work">
+                    <div class="work-container">
                         <img class="img-fluid grid" src="./images/02-portfolio-1.jpg">
-                            <h3><span>Project 1</span></h3>
-                        
-                        
-                            <img class="img-fluid grid" src="./images/02-portfolio-2.jpg">
-                            <h3><span>Project 2</span></h3>
-                        
-                        
-                            <img class="img-fluid grid" src="./images/02-portfolio-3.jpg">
-                            <h3><span>Project 3</span></h3>
-                        
-                    
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="work-container">
+                        <img class="img-fluid grid" src="./images/02-portfolio-2.jpg">
+                        <span>jQuery</span>
+                    </div>
+
+                    <div class="work-container">
+                        <img class="img-fluid grid" src="./images/02-portfolio-3.jpg">
+                        <span>React</span>
+                    </div>
+
                 </div>
+            </div>
+        </section>
+        <br>
+        <br>
 
-            </section>
-            <br>
-            <br>
 
+        <!-- contact -->
+        <section class="page-section contact mr-3" id="contact">
+            <h2>Contact Me</h2>
+            <h4>111 222 333</4>
+                <h4>jenieb3@jsgdesign.com</h4>
+                <br>
+                <br>
 
-            <!-- contact -->
-            <section class="page-section contact mr-3" id="contact">
-                <h2>Contact Me</h2>
-                <h4>111 222 333</4>
-                    <h4>jenieb3@jsgdesign.com</h4>
-                    <br>
-                    <br>
+        </section>
 
-            </section>
-        </main>
         <hr>
-        <footer>Last Updated 12.22</footer>
+    </main>
+    <footer>Last Updated 12.22</footer>
 
 </body>
 
